@@ -2,7 +2,7 @@
   <img src="public/apple-logo.png" width="96" height="96" alt="Apple Logo" />
 </p>
 
-<h1 align="center"> Apple Web — Official iPhone Experience</h1>
+<h1 align="center">Apple Web — Official iPhone Experience</h1>
 
 <p align="center">
   <strong>A pixel-faithful, responsive web recreation of the official Apple iPhone flagship landing & showcase page.</strong>
