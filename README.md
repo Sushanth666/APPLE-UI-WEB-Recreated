@@ -1,7 +1,17 @@
-#  Apple Web — Official iPhone Experience
+<p align="center">
+  <img src="public/apple-logo.png" width="96" height="96" alt="Apple Logo" />
+</p>
 
-> **Brief Project Summary**:  
-> `apple-web` is a pixel-perfect, responsive web recreation of the official **Apple iPhone** flagship landing and product experience ([apple.com/iphone](https://www.apple.com/iphone)). Built with **React 19**, **Vite**, and high-performance **Vanilla CSS**, it delivers Apple's iconic typography, frosted-glass blurs, smooth scroll choreographies, and interactive product showcases.
+<h1 align="center"> Apple Web — Official iPhone Experience</h1>
+
+<p align="center">
+  <strong>A pixel-faithful, responsive web recreation of the official Apple iPhone flagship landing & showcase page.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Sushanth666/APPLE-UI-WEB-Recreated">GitHub Repository</a> •
+  <a href="http://localhost:5173">Local Dev Server</a>
+</p>
 
 ---
 
