@@ -109,12 +109,29 @@ export default function AppleOneServices() {
               </div>
             </div>
             <div className="service-card-bottom-media music-media">
-              <img
-                src="/images/apple-music-covers.png"
-                alt="Apple Music - Pure Throwback, Chill Mix, and Good Vibes"
-                className="apple-music-covers-img"
-                loading="lazy"
-              />
+              <div className="music-covers-row">
+                <img
+                  src="/images/music-throwback.jpg"
+                  alt="Pure Throwback"
+                  className="music-cover-item"
+                  loading="lazy"
+                />
+                <div className="music-cover-item chill-mix-cover">
+                  <div className="chill-brand">
+                    <AppleLogo size={13} />
+                    <span>Music</span>
+                  </div>
+                  <div className="chill-title">
+                    Chill<br />Mix
+                  </div>
+                </div>
+                <img
+                  src="/images/music-goodvibes.jpg"
+                  alt="Good Vibes Only"
+                  className="music-cover-item"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
         </div>

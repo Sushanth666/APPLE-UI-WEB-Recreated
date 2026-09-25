@@ -2670,22 +2670,67 @@
 .service-card-bottom-media.music-media {
   width: 100%;
   overflow: hidden;
-  line-height: 0;
+  padding: 0 0 24px;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  margin-top: auto;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.apple-music-covers-img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
+.music-covers-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: max-content;
   margin: 0 auto;
+}
+
+.music-cover-item {
+  width: 250px;
+  height: 250px;
+  min-width: 250px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   display: block;
-  object-fit: contain;
-  transform: scale(1.08);
-  transform-origin: bottom center;
+}
+
+.chill-mix-cover {
+  width: 260px;
+  height: 260px;
+  min-width: 260px;
+  border-radius: 18px;
+  background: radial-gradient(circle at 85% 15%, #18bb6b 0%, #129a7d 35%, transparent 65%), linear-gradient(145deg, #104366 0%, #09597c 45%, #0093a8 75%, #00b4d8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 22px;
+  text-align: left;
+  color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+.chill-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+}
+
+.chill-title {
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  text-align: left;
 }
 
 /* Card 4: Apple News+ */
